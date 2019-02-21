@@ -2,6 +2,19 @@
     box-sizing:border-box;
 }
 
+html,body {
+    height:100%;
+    margin:0;
+}
+
+.wrapper {
+    min-height:100%;
+    margin-bottom: -58px;
+}
+.footer,
+.push {
+    height:58px;
+}
 header {
     border-color:#cccccc;
     background-color:#ffffff;
@@ -13,6 +26,10 @@ header {
     text-align: center;
     border-bottom: 5px solid lightslategray;
     margin-bottom:20px;
+}
+
+.container {
+    display:flex;
 }
 
 .inline{
@@ -31,9 +48,12 @@ header {
 h1 {
     color:white;
     background-color: #4aaaa5;
-    text-align: center;
     position: relative;
     left: 15%;
+    height:95px;
+    margin-top: 0px;
+
+    padding: 33px 15px 0px 15px !important;
 }
 
 #aboutMe {
@@ -52,6 +72,7 @@ body {
 footer {
     background-color: #666666;
     border-top:8px solid #4aaaa5;
+    height:50px;
 
 }
 
