@@ -12,6 +12,7 @@ header {
     font-family:'Georgia', Times, Times New Roman, serif;
     text-align: center;
     border-bottom: 5px solid lightslategray;
+    margin-bottom:20px;
 }
 
 .inline{
@@ -29,7 +30,6 @@ header {
 }
 h1 {
     color:white;
-    height:100px;
     background-color: #4aaaa5;
     text-align: center;
     position: relative;
