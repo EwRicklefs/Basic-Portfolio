@@ -67,11 +67,19 @@ footer {
 .right {
     float: right;
 }
+.relative {
+    position:relative;
+}
 
 .headerLinks {
     padding:10px;
     position: relative;
     right: 15%;
+}
+
+.headerLinks:hover{
+    background-color:rgb(180, 176, 206);
+    border-radius:15px;
 }
 
 .imgSpacing {
@@ -89,6 +97,38 @@ footer {
     width:70%;
     margin:auto;
 }
+.clearline {
+    float:clear;
+}
+
+.portImgs {
+    margin-right:40px;
+    margin-left:50px;
+    position:relative;
+    margin-top:50px;
+    border-radius: 10px 10px;
+}
+
+
+.portLabel {
+    background-color: #4aaaa5;
+    color:white;
+    width:300px;
+    Height:40px;
+    position:absolute;
+    margin-left:50px;
+    padding:13px 110px;
+    z-index: 2;
+    top:160px;
+    opacity:.8;
+    transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+}
+
+.portLabel:hover {
+    opacity:1;
+}
 
 #mainAbout {
     height:600px;
@@ -99,7 +139,8 @@ footer {
 }
 
 #mainPortfolio {
-    height:600px;
+    height:900px;
+    padding: 20px;
 }
 
 #aboutMe {
@@ -124,4 +165,8 @@ footer {
     color:white;
     height:50px;
     width:200px;
+}
+
+#submitButton:hover{
+    background-color:#12816f;
 }
